@@ -1,0 +1,21 @@
+; Helio-Sage EA - Funded Account Preset (FTMO, MFF, TFT, etc.)
+; Conservative settings to protect drawdown limits
+; Typical funded rules: 5% max DD, 10% max daily DD, no weekend holds
+
+; === CORE SETTINGS ===
+InpSymbol=
+InpHTFBias=2
+InpSessionMode=2
+InpMinConfluences=4
+InpRiskPercent=0.5
+InpMaxTrades=1
+
+; === TRADE MANAGEMENT ===
+InpUseBreakEven=true
+InpBETriggerPips=7.0
+InpUseTrailingStop=false
+InpTrailPips=15.0
+InpMagicNumber=77702
+InpTradeComment=HelioSage_Funded
+InpShowZones=true
+InpUTCOffset=-99
