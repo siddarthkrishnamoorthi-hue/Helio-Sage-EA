@@ -1,0 +1,21 @@
+; Helio-Sage EA - Personal Account Preset
+; For personal funded accounts with no drawdown restrictions
+; More aggressive settings for higher returns
+
+; === CORE SETTINGS ===
+InpSymbol=
+InpHTFBias=2
+InpSessionMode=2
+InpMinConfluences=3
+InpRiskPercent=1.5
+InpMaxTrades=3
+
+; === TRADE MANAGEMENT ===
+InpUseBreakEven=true
+InpBETriggerPips=10.0
+InpUseTrailingStop=true
+InpTrailPips=12.0
+InpMagicNumber=77701
+InpTradeComment=HelioSage_Personal
+InpShowZones=true
+InpUTCOffset=-99
